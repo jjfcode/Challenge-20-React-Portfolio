@@ -20,6 +20,8 @@ https://www.tooplate.com/view/2126-antique-cafe
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #666;
+    width: 100%;
+    height: 100%;
 }
 
 p a {
@@ -52,11 +54,6 @@ footer span a {
 
 .tm-container {
     max-width: 1200px;
-}
-
-.parallax-window {
-    min-height: 1064px;
-    background: transparent;
 }
 
 .tm-text-yellow {
