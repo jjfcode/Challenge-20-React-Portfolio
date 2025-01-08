@@ -1,8 +1,18 @@
 function Footer({ handlePageChange, currentPage }) {
     return (
         <>
-            <footer className="bg-dark text-white text-center py-3">
-                <p>&copy; 2025 John Ferlito. All rights reserved.</p>
+            <footer class="bg-dark text-white text-center py-3">
+                <div>
+                    <a href="https://github.com/jjfcode" target="_blank" class="text-white mx-2 footer-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/john-ferlito-7a29084a/" target="_blank" class="text-white mx-2 footer-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/john.ferlito.7" target="_blank" class="text-white mx-2 footer-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
             </footer>
         </>
     );

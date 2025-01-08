@@ -9,8 +9,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">First Webpage</h5>
                                 <p className="card-text">My Company Webpage</p>
-                                <a href="https://github.com/jjfcode/vdaudiorentalv2" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://vdaudiorentals.com/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/vdaudiorentalv2" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://vdaudiorentals.com/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
@@ -20,8 +20,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Percentage App</h5>
                                 <p className="card-text">A simple percentage calculator app.</p>
-                                <a href="https://github.com/jjfcode/percentange_app" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://jjfcode.github.io/percentange_app/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/percentange_app" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/percentange_app/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
@@ -31,8 +31,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Profit Sharing App</h5>
                                 <p className="card-text">A profit sharing calculator app.</p>
-                                <a href="https://github.com/jjfcode/ProfitSharing-APP" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://jjfcode.github.io/ProfitSharing-APP/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/ProfitSharing-APP" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/ProfitSharing-APP/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
@@ -42,8 +42,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">JATE</h5>
                                 <p className="card-text">Just Another Text Editor.</p>
-                                <a href="https://github.com/jjfcode/challenge19-JATE" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://challenge19-jate-jut5.onrender.com/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/challenge19-JATE" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://challenge19-jate-jut5.onrender.com/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Task Board</h5>
                                 <p className="card-text">A task board application.</p>
-                                <a href="https://github.com/jjfcode/challenge5-taskboard" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://jjfcode.github.io/challenge5-taskboard/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/challenge5-taskboard" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/challenge5-taskboard/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Weather Dashboard</h5>
                                 <p className="card-text">A weather dashboard application.</p>
-                                <a href="https://github.com/jjfcode/Challenge6-Weather-Dashboard" className="btn btn-primary">View on GitHub</a>
-                                <a href="https://jjfcode.github.io/Challenge6-Weather-Dashboard/" className="btn btn-secondary">Visit Website</a>
+                                <a href="https://github.com/jjfcode/Challenge6-Weather-Dashboard" target="_blank" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/Challenge6-Weather-Dashboard/" target="_blank" className="btn btn-secondary">Visit Website</a>
                             </div>
                     </div>
                 </div>
