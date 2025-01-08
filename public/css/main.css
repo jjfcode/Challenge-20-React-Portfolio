@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
     margin: 0;
 }
@@ -14,8 +13,7 @@ body {
 }
 
 header {
-    background-color: #343a40;
-    /* Dark background color to match the navbar */
+    background-color: #343a40; /* Dark background color to match the navbar */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -34,9 +32,7 @@ section {
     flex: 1;
 }
 
-.about,
-.projects,
-.contact {
+.about, .projects, .contact {
     max-width: 800px;
     margin: auto;
 }
@@ -46,10 +42,8 @@ section {
 }
 
 footer {
-    background-color: #343a40;
-    /* Dark background color */
-    color: white;
-    /* White text color */
+    background-color: #343a40; /* Dark background color */
+    color: white; /* White text color */
     text-align: center;
     padding: 1rem 0;
     position: sticky;
@@ -58,107 +52,80 @@ footer {
 }
 
 .navbar-brand {
-    font-size: 2rem;
-    /* Set font size to 2rem */
-    color: white !important;
-    /* Make the font color white */
+    font-size: 2rem; /* Set font size to 2rem */
+    color: white !important; /* Make the font color white */
 }
 
 .nav-link {
     font-size: 1.5rem;
-    color: white !important;
-    /* Make the font color white */
-    transition: color 0.3s ease, transform 0.3s ease;
-    /* Add transition for smooth effect */
+    color: white !important; /* Make the font color white */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
 }
 
 .nav-link:hover {
-    color: #ffcc00 !important;
-    /* Change color on hover */
-    transform: scale(1.1);
-    /* Slightly enlarge the link on hover */
+    color: #ffcc00 !important; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
 }
 
 .nav-item {
-    margin-right: 15px;
-    /* Add space between the nav items */
+    margin-right: 15px; /* Add space between the nav items */
 }
 
-#about h2,
-#resume h2 {
-    font-size: 2.5rem;
-    /* Set font size to 2.5rem */
-    font-weight: bold;
-    /* Make the font bold */
+#about h2, #resume h2 {
+    font-size: 2.5rem; /* Set font size to 2.5rem */
+    font-weight: bold; /* Make the font bold */
 }
 
 #about p {
-    font-size: 1.2rem;
-    /* Set font size to 1.2rem */
+    font-size: 1.2rem; /* Set font size to 1.2rem */
 }
 
 #resume h3 {
-    font-size: 1.8rem;
-    /* Set font size to 1.8rem */
-    font-weight: bold;
-    /* Make the font bold */
+    font-size: 1.8rem; /* Set font size to 1.8rem */
+    font-weight: bold; /* Make the font bold */
 }
 
 #resume h4 {
-    font-size: 1.5rem;
-    /* Set font size to 1.5rem */
-    font-weight: bold;
-    /* Make the font bold */
+    font-size: 1.5rem; /* Set font size to 1.5rem */
+    font-weight: bold; /* Make the font bold */
     padding: 20px;
 }
 
 #resume ul li {
-    font-size: 1.1rem;
-    /* Set font size to 1.2rem */
-    margin-left: 50px;
-    /* Add left margin to the list items */
+    font-size: 1.1rem; /* Set font size to 1.2rem */
+    margin-left: 50px; /* Add left margin to the list items */
 }
 
 .avatar {
-    width: 150px;
-    /* Set the width of the image */
-    height: 150px;
-    /* Set the height of the image */
-    border-radius: 50%;
-    /* Make the image circular */
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
     display: block;
-    margin: 0 auto 20px;
-    /* Center the image and add some margin at the bottom */
+    margin: 0 auto 20px; /* Center the image and add some margin at the bottom */
 }
 
-.center-content {
+.card {
+    width: 100%; /* Make the card take the full width of its container */
+    height: 100%; /* Make the card take the full height of its container */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for the card image */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.row {
-    width: 100%;
-}
-
-.col-md-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.footer-icon {
+    font-size: 2rem; /* Double the size of the icons */
 }
 
 @media (max-width: 600px) {
-
-    header,
-    footer {
+    header, footer {
         padding: 5px 0;
     }
 

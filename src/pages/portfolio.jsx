@@ -1,82 +1,76 @@
 function Portfolio() {
     return <>
-        <div id="portfolio" data-image-src="img/antique-cafe-bg-02.jpg">
-            <div className="container mx-auto tm-container py-24 sm:py-48">
-                <div className="text-center mb-16">
-                    <h2 className="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
-                </div>
-                <div className="flex flex-col lg:flex-row justify-around items-center">
-                    <div className="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                        <div className="flex items-start mb-6 tm-menu-item">
-                            <img src="img/menu-item-1.jpg" alt="Image" className="rounded-md" />
-                            <div className="ml-3 sm:ml-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
-                                <div className="text-white text-md sm:text-lg font-light">L $10.50</div>
+        <section id="portfolio" className="container my-5">
+            <h2>Portfolio</h2>
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project1.png" className="card-img-top" alt="Project 1"/>
+                            <div className="card-body">
+                                <h5 className="card-title">First Webpage</h5>
+                                <p className="card-text">My Company Webpage</p>
+                                <a href="https://github.com/jjfcode/vdaudiorentalv2" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://vdaudiorentals.com/" className="btn btn-secondary">Visit Website</a>
                             </div>
-                        </div>
-                        <div className="flex items-start mb-6 tm-menu-item">
-                            <img src="img/menu-item-2.jpg" alt="Image" className="rounded-md" />
-                            <div className="ml-3 sm:ml-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
-                                <div className="text-white text-md sm:text-lg font-light">L $12.50</div>
-                            </div>
-                        </div>
-                        <div className="flex items-start mb-6 tm-menu-item">
-                            <img src="img/menu-item-3.jpg" alt="Image" className="rounded-md" />
-                            <div className="ml-3 sm:ml-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
-                                <div className="text-white text-md sm:text-lg font-light">L $14.75</div>
-                            </div>
-                        </div>
-                        <div className="flex items-start mb-6 tm-menu-item">
-                            <img src="img/menu-item-4.jpg" alt="Image" className="rounded-md" />
-                            <div className="ml-3 sm:ml-6">
-                                <h3 className="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
-                                <div className="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
-                            </div>
-                        </div>
                     </div>
-                    <div className="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                        <div className="flex items-start justify-end mb-6 tm-menu-item-2">
-                            <div className="text-right mr-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
-                                <div className="text-white text-md sm:text-lg font-light">Large $15</div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project2.png" className="card-img-top" alt="Project 2"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Percentage App</h5>
+                                <p className="card-text">A simple percentage calculator app.</p>
+                                <a href="https://github.com/jjfcode/percentange_app" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/percentange_app/" className="btn btn-secondary">Visit Website</a>
                             </div>
-                            <img src="img/menu-item-5.jpg" alt="Image" className="rounded-md" />
-                        </div>
-                        <div className="flex items-start justify-end mb-6 tm-menu-item-2">
-                            <div className="text-right mr-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
-                                <div className="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project3.png" className="card-img-top" alt="Project 3"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Profit Sharing App</h5>
+                                <p className="card-text">A profit sharing calculator app.</p>
+                                <a href="https://github.com/jjfcode/ProfitSharing-APP" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/ProfitSharing-APP/" className="btn btn-secondary">Visit Website</a>
                             </div>
-                            <img src="img/menu-item-6.jpg" alt="Image" className="rounded-md" />
-                        </div>
-                        <div className="flex items-start justify-end mb-6 tm-menu-item-2">
-                            <div className="text-right mr-6">
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
-                                <div className="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
-                                <div className="text-white text-md sm:text-lg font-light">Large $18</div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project4.png" className="card-img-top" alt="Project 4"/>
+                            <div className="card-body">
+                                <h5 className="card-title">JATE</h5>
+                                <p className="card-text">Just Another Text Editor.</p>
+                                <a href="https://github.com/jjfcode/challenge19-JATE" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://challenge19-jate-jut5.onrender.com/" className="btn btn-secondary">Visit Website</a>
                             </div>
-                            <img src="img/menu-item-7.jpg" alt="Image" className="rounded-md" />
-                        </div>
-                        <div className="flex items-start justify-end mb-6 tm-menu-item-2">
-                            <div className="text-right mr-6">
-                                <h3 className="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
-                                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
-                                <div className="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project5.png" className="card-img-top" alt="Project 5"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Task Board</h5>
+                                <p className="card-text">A task board application.</p>
+                                <a href="https://github.com/jjfcode/challenge5-taskboard" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/challenge5-taskboard/" className="btn btn-secondary">Visit Website</a>
                             </div>
-                            <img src="img/menu-item-8.jpg" alt="Image" className="rounded-md" />
-                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card mb-4">
+                        <img src="img/project6.png" className="card-img-top" alt="Project 6"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Weather Dashboard</h5>
+                                <p className="card-text">A weather dashboard application.</p>
+                                <a href="https://github.com/jjfcode/Challenge6-Weather-Dashboard" className="btn btn-primary">View on GitHub</a>
+                                <a href="https://jjfcode.github.io/Challenge6-Weather-Dashboard/" className="btn btn-secondary">Visit Website</a>
+                            </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </>
 }
 
