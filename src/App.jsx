@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Resume from './pages/resume'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import Portfolio from './pages/portfolio'
 import About from './pages/about'
 import Contact from './pages/contact'
@@ -29,6 +30,7 @@ function App() {
     <>
       <NavBar handlePageChange={handlePageChange} currentPage={currentPage} />
       {renderPage()}
+      <Footer />
     </>
   )
 }
