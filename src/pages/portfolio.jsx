@@ -3,7 +3,7 @@ function Portfolio() {
         <section id="portfolio" className="container my-5">
             <h2>Portfolio</h2>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <div className="card mb-4">
                         <img src="img/project1.png" className="card-img-top" alt="Project 1"/>
                             <div className="card-body">
@@ -14,7 +14,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <div className="card mb-4">
                         <img src="img/project2.png" className="card-img-top" alt="Project 2"/>
                             <div className="card-body">
@@ -25,7 +25,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <div className="card mb-4">
                         <img src="img/project3.png" className="card-img-top" alt="Project 3"/>
                             <div className="card-body">
@@ -36,7 +36,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <div className="card mb-4">
                         <img src="img/project4.png" className="card-img-top" alt="Project 4"/>
                             <div className="card-body">
@@ -47,7 +47,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <div className="card mb-4">
                         <img src="img/project5.png" className="card-img-top" alt="Project 5"/>
                             <div className="card-body">
@@ -58,7 +58,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4   ">
                     <div className="card mb-4">
                         <img src="img/project6.png" className="card-img-top" alt="Project 6"/>
                             <div className="card-body">
