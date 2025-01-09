@@ -1,6 +1,6 @@
 function Resume() {
-  return (
-    <section id="resume" classNameName="container my-5">
+  return <>
+    <section id="resume" className="container my-5">
       <h2>Resume</h2>
       <a href="file/RESUME-JJF.pdf" className="btn btn-primary my-3" download>Download Resume</a>
       <h3>Technologies</h3>
@@ -34,7 +34,7 @@ function Resume() {
         </div>
       </div>
     </section>
-  );
+  </>
 }
 
 export default Resume;

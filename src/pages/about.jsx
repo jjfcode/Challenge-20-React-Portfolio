@@ -1,11 +1,10 @@
 import React from 'react';
-// import './about.css';
 
 function About() {
-    return (
+    return <>
         <section id="about" className="container my-5 center-content">
             <h2>About Me</h2>
-            <img src="img/JF_image" alt="Avatar" className="avatar"/>
+            <img src="img/JF_image" alt="Avatar" className="avatar" />
             <p>
                 I am John Ferlito, the Owner of Mix3 Sound, Inc., where my passion for audio engineering comes to life. With over 20 years of experience
                 in the Audio Industry, I have finely tuned my skills as an Audio Engineer. I take immense pride in providing top-notch audio equipment
@@ -19,7 +18,7 @@ function About() {
                 and skill enhancement. I eagerly anticipate the learning journey ahead and the new possibilities it will unlock.
             </p>
         </section>
-    );
+    </>
 }
 
 export default About;

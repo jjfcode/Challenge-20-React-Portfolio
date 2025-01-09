@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;600&display=swap');
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -23,6 +26,27 @@ h1 {
     margin: 0;
 }
 
+/* Update heading styles */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;  /* SemiBold */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+/* Update regular text styles */
+p, li, a:not(.nav-link):not(.navbar-brand) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  /* Regular */
+}
+
+/* Update other headings */
+h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;  /* SemiBold */
+}
+
 section {
     padding: 20px;
     margin: 10px;
@@ -46,20 +70,26 @@ footer {
     color: white; /* White text color */
     text-align: center;
     padding: 1rem 0;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .navbar-brand {
-    font-size: 2rem; /* Set font size to 2rem */
-    color: white !important; /* Make the font color white */
+    font-size: 2rem;
+    color: white !important;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1em;
 }
 
 .nav-link {
     font-size: 1.5rem;
-    color: white !important; /* Make the font color white */
-    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+    color: white !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1em;
 }
 
 .nav-link:hover {
@@ -71,7 +101,7 @@ footer {
     margin-right: 15px; /* Add space between the nav items */
 }
 
-#about h2, #resume h2 {
+#about h2, #resume h2, #portfolio h2, #contact h2 {
     font-size: 2.5rem; /* Set font size to 2.5rem */
     font-weight: bold; /* Make the font bold */
 }
@@ -81,19 +111,31 @@ footer {
 }
 
 #resume h3 {
-    font-size: 1.8rem; /* Set font size to 1.8rem */
+    font-size: 1.9rem; /* Set font size to 1.8rem */
     font-weight: bold; /* Make the font bold */
+    text-align: center;
 }
 
 #resume h4 {
     font-size: 1.5rem; /* Set font size to 1.5rem */
     font-weight: bold; /* Make the font bold */
     padding: 20px;
+    text-align: center;
 }
 
 #resume ul li {
-    font-size: 1.1rem; /* Set font size to 1.2rem */
-    margin-left: 50px; /* Add left margin to the list items */
+    font-size: 1.1rem;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+}
+
+#resume ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .avatar {
